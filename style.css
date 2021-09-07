@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.maindiv{
+    height: 80vh;
+    width: 100%;
+    background-image: url("./img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    color: white;
+    height: 70vh;
+}
+
+.seconddiv{
+    height: 15vh;
+    background: linear-gradient(120deg, rgb(169, 23, 182), rgb(240, 86, 47));
+}
+
+.row .col-sm-4{
+    color: white;
+}
+
+.col-sm-3 img{
+    width: auto;
+}
+
+.courses{
+    background: rgb(182, 173, 173); 
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+}
+
+#col4,#col5,#col6{
+    color: black;
+}
+
+ul li{
+    list-style: none;
+}
+
+.footer{
+    height: 50px;
+    color: white;
+    background: black;
+}
+
+.div3{
+    background-color: white;
+}
